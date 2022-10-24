@@ -49,6 +49,8 @@ The purpose of this project is to accurately predict the future closing value of
  ### Wireframe
  ---
  - Example graph I expect to output.
+
+
  ![predicted-stock-price-In-the-Fig-2-the-graph-has-been-plot-for-whole-data-set-along-with](https://user-images.githubusercontent.com/108231637/197602743-93f16269-c6fe-4fb0-bd2d-12e33dc28d75.png)
 
 ## Install instructions
