@@ -50,6 +50,11 @@ The purpose of this project is to accurately predict the future closing value of
  - Example graph I expect to output.
  ![predicted-stock-price-In-the-Fig-2-the-graph-has-been-plot-for-whole-data-set-along-with](https://user-images.githubusercontent.com/108231637/197602743-93f16269-c6fe-4fb0-bd2d-12e33dc28d75.png)
 
+## Install instructions
+---
+- Fork and clone this repo
+- pip install package && pip freeze > requirements.txt 
+
 ### My schedule (Subject to change)
 ---
 
@@ -81,3 +86,4 @@ The purpose of this project is to accurately predict the future closing value of
  - Monday: 
 ~ Presentation Day ~
   
+ 
