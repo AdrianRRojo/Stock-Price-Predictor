@@ -13,6 +13,9 @@ The purpose of this project is to accurately predict the future closing value of
 ---
 - We will be implementing a Long Short Term Memory (LSTM) Neural Network algorithm and Deep Learning models to generate predictions
   - What is LSTM? LSTM is an extension of Recurring Neueral Networks (RNN). " It is capable of processing the entire sequence of data, apart from single data points such as images. This finds application in speech recognition, machine translation, etc. LSTM is a special kind of RNN, which shows outstanding performance on a large variety of problems." - intellipaat.com @ https://intellipaat.com/blog/what-is-lstm/
+  ![RNN-v-s-LSTM-a-RNNs-use-their-internal-state-memory-to-process-sequences-of-inputs](https://user-images.githubusercontent.com/108231637/197599859-07610330-74d7-4899-8282-24f73bd1fadd.jpg)
+
+  
  - We will be using Tensor Flow (https://www.tensorflow.org/), an open-source library for numerical computation and large-scale machine learning.
  
   
