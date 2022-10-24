@@ -17,6 +17,7 @@ The purpose of this project is to accurately predict the future closing value of
 
   
  - We will be using Tensor Flow (https://www.tensorflow.org/), an open-source library for numerical computation and large-scale machine learning.
+ - This will created using Python3
  
   
  ## MVPS
