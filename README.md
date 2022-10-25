@@ -41,11 +41,12 @@ The purpose of this project is to accurately predict the future closing value of
  
  ## Potential Roadblocks
  ---
- - Achieving a high level of accuracy
- - Problems in generating the graphs
+ - Achieving a high level of accuracy.
+ - Problems in generating the graphs.
  - Due date time limit.
+ - It is impossible to test long-term predictions in the week time limit.
  
- ### Wireframe
+ ## Wireframe
  ---
  - Example graph I expect to output.
 
