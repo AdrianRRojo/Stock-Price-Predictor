@@ -17,7 +17,6 @@ The purpose of this project is to accurately predict the future closing value of
 
   
  - We will be using Tensor Flow (https://www.tensorflow.org/), an open-source library for numerical computation and large-scale machine learning.
- - This will created using Python3
  
   
  ## MVPS
@@ -44,7 +43,7 @@ The purpose of this project is to accurately predict the future closing value of
  ---
  - Achieving a high level of accuracy
  - Problems in generating the graphs
- - Time limit. This is an ambitious project, I understand that I do not have a history of machine learning, but I want to expand my knowledge and I have already began researching this topic. This is a project I believe I can accomplish within the time frame, but maybe not exactly how I imagine it.
+ - Due date time limit.
  
  ### Wireframe
  ---
@@ -72,7 +71,7 @@ The purpose of this project is to accurately predict the future closing value of
 - Thursday:
   - Continue to build on the work of Wednesday
   - Re-evalaute the position of the project and stretch goals. 
-    - Mid way through the project re-calibrate my current goals to ensure I am working on what is absolutely necessary to meeting MVP
+    - Mid way through the project I will re-evaluate my current goals to ensure I am working on what is absolutely necessary to meeting MVP
   - I should be recieving a price prediction by this point.
   
 - Friday:
