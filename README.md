@@ -9,7 +9,7 @@ The goal of this project is to make use of machine learning to, as accurately as
 --- 
 The purpose of this project is to accurately predict the future closing value of a given stock across a given period of time.
 
-## How we plan to do this / Technology used
+## How I plan to accomplish this / Technology used
 ---
 - We will be implementing a Long Short Term Memory (LSTM) Neural Network algorithm and Deep Learning models to generate predictions
   - What is LSTM? LSTM is an extension of Recurring Neueral Networks (RNN). " It is capable of processing the entire sequence of data, apart from single data points such as images. This finds application in speech recognition, machine translation, etc. LSTM is a special kind of RNN, which shows outstanding performance on a large variety of problems." - intellipaat.com @ https://intellipaat.com/blog/what-is-lstm/
@@ -37,7 +37,7 @@ The purpose of this project is to accurately predict the future closing value of
  ---
  - As a user, I would like to recieve a price prediction for a stock of my choosing
  - As a user, I want to see a line graph visual representation of the trajectory
- - As a user, I want to like to look at the price history as well as the furture prediction.
+ - As a user, I want to look at the price history as well as the furture prediction.
  
  ## Potential Roadblocks
  ---
