@@ -99,4 +99,23 @@ def time_between(dataframe, first_day, last_day, n=3):
 df_time_between = time_between(df, '2015-10-08', '2022-10-24', n=3)
 df_time_between
 
+def x_y_df(data_window):
+  # converts the time window into a numpy array
+  # We covert this because we are able to
+  df_as_np = data_window.to_numpy()
+
+  dates = df_as_np[:, 0]
+
+  middle_matrix = df_as_np[:, 1:-1]
+  
+  X = middle_matrix.reshape((len(dates), middle_matrix.shape[1], 1))
+
+  Y = df_as_np[:, -1]
+
+  return dates, X.astype(np.float32), Y.astype(np.float32)
+
+dates, X, y = x_y_df(df_time_between)
+
+dates.shape, X.shape, y.shape
+
 # %%
