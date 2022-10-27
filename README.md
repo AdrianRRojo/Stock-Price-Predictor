@@ -92,5 +92,5 @@ The purpose of this project is to accurately predict the future closing value of
 
  ## Actual result / Final output: 
  ---
- [Graph exported from my project](https://user-images.githubusercontent.com/108231637/198393888-f397d7c7-6d2f-42c1-aeda-d2c78652feea.png)
+![Graph of PYPL predictions](https://user-images.githubusercontent.com/108231637/198394188-27ba64b8-bee1-45a6-a76e-3ab284b1a674.png)
 
