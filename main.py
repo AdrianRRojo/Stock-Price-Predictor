@@ -133,9 +133,10 @@ dates.shape, X.shape, y.shape
 dates_times_8 = int(len(dates) * .8)
 dates_times_9 = int(len(dates) * .9)
 
+# training uses 80% of the data
 dates_train, X_train, y_train = dates[:dates_times_8], X[:dates_times_8], y[:dates_times_8]
 
-# first validation and test uses 90% of the dates
+#validation and test uses 90% of the dates
 dates_val, X_val, y_val = dates[dates_times_8:dates_times_9], X[dates_times_8:dates_times_9], y[dates_times_8:dates_times_9]
 dates_test, X_test, y_test = dates[dates_times_9:], X[dates_times_9:], y[dates_times_9:]
 
@@ -151,7 +152,7 @@ plt.legend(['Train', 'Validated', 'Test'])
 
 
 
-model = Sequential([layers.Input((3, 1)), layers.LSTM(60),layers.Dense(30, activation='relu'),layers.Dense(30, activation='relu'),layers.Dense(1)])
+model = Sequential([layers.Input((3, 1)), layers.LSTM(64),layers.Dense(32, activation='relu'),layers.Dense(32, activation='relu'),layers.Dense(1)])
 
 # 0.001 -> learning rate
 # M.A.R -> avg we are wrong by
@@ -160,7 +161,7 @@ model.compile(loss='mse',
               metrics=['mean_absolute_error'])
 
 #Epochs -> how many times it runs through the data
-model.fit(X_train, y_train, validation_data=(X_val, y_val), epochs=50)
+model.fit(X_train, y_train, validation_data=(X_val, y_val), epochs=100)
 
 train_predictions = model.predict(X_train).flatten()
 
