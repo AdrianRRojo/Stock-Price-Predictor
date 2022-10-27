@@ -87,6 +87,11 @@ The purpose of this project is to accurately predict the future closing value of
   - If the project is largely bug free and has met MVP, begin working on stretch goals that are achieveable in the time frame.
   
  - Monday: 
-~ Presentation Day ~
-  
- 
+~ Presentation Day ~!
+
+
+ ## Actual result / Final output: 
+ ---
+
+![Graph of final predictions](https://user-images.githubusercontent.com/108231637/198394372-79cd7b15-5ebc-4878-bd35-fb8fce2258d1.png)
+
