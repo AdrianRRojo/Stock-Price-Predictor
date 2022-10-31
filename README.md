@@ -1,5 +1,10 @@
 # Stock-Price-Predictor
 
+## Client side / Google Colab
+---
+- Client : https://github.com/AdrianRRojo/Project-4-client
+- Colab ( Download a csv from yahoo finance) : https://colab.research.google.com/drive/1RLAamXA3JF8el2xJh2nOOeI1fW_his6i?usp=sharing 
+
 ## Overview
 ---
 The goal of this project is to make use of machine learning to, as accurately as possible, generete a future price prediction on the different companies on the New York Stock Exchange (NYSE). Is this possible? The Stock market is often seen as highly volitale and unpredictable, but Investment firms, hedge funds and even individuals have been using financial models to better understand market behavior and make profitable investments and trades. Investors make predictions based on news, reports, and any other information that will help them make educated guess, we can, and will, design a similar algorithm that will help us make educated guesses.
@@ -17,21 +22,24 @@ The purpose of this project is to accurately predict the future closing value of
 
   
  - We will be using Tensor Flow (https://www.tensorflow.org/), an open-source library for numerical computation and large-scale machine learning.
- 
+ - Pandas
+ - Matplotlib
+ - Numpy
   
  ## MVPS
  ---
- - [ ] Retrieve stock price data from Yahoo Finance
- - [ ] Generate a price prediction
- - [ ] Generate a line graph showing the current price trajectory
- - [ ] Show the history of the stocks price based on a given time frame i.e 3 months, 6 months, or a year
- - [ ] Create a plan to expand on this project after completion
+ - [ x ] Retrieve stock price data from Yahoo Finance
+ - [ x ] Generate a price prediction
+ - [ x ] Generate a line graph showing the current price trajectory
+ - [ x ] Show the history of the stocks price based on a given time frame i.e 3 months, 6 months, or a year
+ - [ x ] Create a plan to expand on this project after completion
  
  ## Stretch Goals
  ---
  - [ ] Allow for multipe types of graphs i.e a bar graph.
  - [ ] Deploy it live so that others may use this resource as well.
  - [ ] Allow for stocks outside of the NYSE and generate a prediction from those as well 
+ - [ x ] Create a live website
  
  ## User Stories
  ---
@@ -95,3 +103,13 @@ The purpose of this project is to accurately predict the future closing value of
 
 ![Graph of final predictions](https://user-images.githubusercontent.com/108231637/198394372-79cd7b15-5ebc-4878-bd35-fb8fce2258d1.png)
 
+## Road block encountered
+---
+- The program only successfully runs on google colab, not locally.
+
+
+## Future Plans
+---
+- [ ] Website: create a list of "Watched stocks"
+- [ ] Website: add more features like ticker look up
+- [ ] Predictor: Incorporate the program locally, so the code can live within the website and not as a link to google colab.
