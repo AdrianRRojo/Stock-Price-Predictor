@@ -28,18 +28,18 @@ The purpose of this project is to accurately predict the future closing value of
   
  ## MVPS
  ---
- - [ x ] Retrieve stock price data from Yahoo Finance
- - [ x ] Generate a price prediction
- - [ x ] Generate a line graph showing the current price trajectory
- - [ x ] Show the history of the stocks price based on a given time frame i.e 3 months, 6 months, or a year
- - [ x ] Create a plan to expand on this project after completion
+ - [x] Retrieve stock price data from Yahoo Finance
+ - [x] Generate a price prediction
+ - [x] Generate a line graph showing the current price trajectory
+ - [x] Show the history of the stocks price based on a given time frame i.e 3 months, 6 months, or a year
+ - [x] Create a plan to expand on this project after completion
  
  ## Stretch Goals
  ---
  - [ ] Allow for multipe types of graphs i.e a bar graph.
  - [ ] Deploy it live so that others may use this resource as well.
  - [ ] Allow for stocks outside of the NYSE and generate a prediction from those as well 
- - [ x ] Create a live website
+ - [x] Create a live website
  
  ## User Stories
  ---
